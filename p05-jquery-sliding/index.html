@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jquery Sliding</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#flip").click(function() {
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
+    <style>
+        #panel, #flip {
+		padding: 6px;
+		text-align: center;
+		font-size: 24px;
+        font-family: times new roman ;
+		background-color: purple;
+		border: solid 4px tan;
+		
+
+	}
+	#panel {
+		padding: 55px;
+		display: none;
+		position: absolute;
+		color: black;
+	}
+</style>
+	</script>
+</head>
+
+<body>
+    <div id="flip"> Ine Sintia </div>
+    <div id="panel">Saya seorang mahasiswi STMIK IKMI CIREBON prodi komputerisasi akuntansi sekarang saya semester tiga(3)</div>
+</body>
+
+</html>
