@@ -1,0 +1,260 @@
+body{
+	background-color: white;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+  	border-radius: 50%;
+  	box-shadow: 2px 2px 4px pink;
+  	width: 5cm;
+  	padding: 3px;
+  	margin: 10px;
+  	background-color: white;
+  	transition: 0.2s;
+  	opacity: 90%;
+  	width: 100px
+  	
+}
+img:hover{
+	transform: scale(1.1);
+	
+}
+h3{
+	margin: 20px;
+	text-align: center;
+}
+.teks{
+	transition: 0.5s;
+	text-align: center;
+	margin:0 0 3px;
+}
+
+
+.teks:hover {
+		letter-spacing: 2px;
+	}
+
+p{
+	margin: 45px 0 5px;
+	text-align: center;
+	text-align: justify;
+	
+}
+ .tbl{
+	font-weight: bold;
+ }
+
+
+blockquote{
+	margin: 20px 10px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	transition: 0.5s;
+}
+
+
+
+.hallo{
+	font-family: Arial, Helvetica, sans-serif;
+    	position: relative;
+    	top: 50%;  
+    	width: 14em;
+    	margin: 0 auto;
+		border-right: 1px solid rgba(255,255,255,.75);
+    	text-align: center;
+    	white-space: nowrap;
+    	overflow: hidden;
+    	transform: translateY(-50%);    
+}
+	
+@keyframes typewriter{
+  	from{width: 0;}
+  	to{width: 14em;}
+}
+@keyframes blinkTextCursor{
+  	from{border-right-color: black;}
+  	to{border-right-color: transparent;}
+}
+
+.first{
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+
+.heading{
+	background-color: pink;
+	padding: 5px 10px 20px;
+	text-align: center;
+	border: 2px solid  pink;
+	border-radius: 5px 5px 0 0;
+    box-shadow: 0px 8px 16px 0px pink;
+}
+
+.navigation{
+    background-color: white;
+    padding: 17px 0;
+	box-shadow: 0px 8px 16px 0px pink;
+	border-left: 2px solid rgba(243, 147, 214, 0.562);
+	border-right: 2px solid rgba(243, 147, 214, 0.562);
+    	
+}
+
+.bar{
+	margin: 0;
+	padding: 17Px ;
+    color: black ;
+	border: none;
+	border-radius: 2px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.bar:hover{
+	background-color: pink;
+}
+
+.aktif{
+	background-color: pink;
+}
+
+.bar_home{
+	background-color:purple;
+	padding: 22px;
+	border-left: 2px solid rgba(243, 147, 214, 0.562);
+	border-right: 2px solid rgba(243, 147, 214, 0.562);
+   	box-shadow: 0px 8px 16px 0px pink (243, 147, 214, 0.562);
+}
+
+.fill{
+	display: none;
+	background-color: purple ;
+	padding: 22px;
+	border-left: 2px solid rgba(243, 147, 214, 0.562);
+	border-right: 2px solid rgba(243, 147, 214, 0.562);
+   	box-shadow: 0px 8px 16px 0px rgb(243, 133, 210);
+}
+
+.garis{
+	width: auto;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 2px solid black;
+	transition-duration: 0.7s;
+	margin: 20px 0 25px;
+}
+.garis_1{
+	width: auto;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 2px solid black;
+	transition-duration: 0.7s;
+	margin: 70px 0 5px;
+}
+
+.garis-tengah{
+	width: 35%;
+	display: flex;
+	border-bottom: 2px solid purple;
+	margin: auto;
+}
+.garis-heigth{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.garis2{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.fillnya {
+    padding: 30px;
+    color: black;
+    text-align: left;
+    box-shadow: 5px 5px 3px rgba(243, 133, 210);
+    border-radius: 5px;
+    z-index: 1;
+}
+.fillnya a{
+	color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+.fillnya a:hover {
+	background-color: rgba(243, 133, 210);
+	color: rgb(241, 173, 224);
+	box-shadow: 2px 2px 3px purple;
+}
+.list{
+	margin-bottom: 20px;
+}
+
+.bawah{
+	background-color:white ;
+	text-align: center;
+	border-bottom: 1px solid rgba(243, 133, 210);
+	color: black;
+	padding: 9px;
+	border-radius: 0 0 5px 5px;
+	font-weight: bold;
+	border-left: 2px solid rgba(243, 133, 210);
+	border-right: 2px solid rgba(243, 133, 210);
+   	box-shadow: 0px 8px 16px 0px pink;
+    	
+}
+
+.tombol_tengah {
+    text-align: center;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid pink;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    color: pink;
+    background-color: pink;
+    align-items: center;
+}
+
+.sosial-media {
+    width: 10px;
+    height: 10px;
+}
+.pembungkus-catatan-kaki {
+    margin-bottom: 28px;
+}
+
+ .foto-sosmed {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding: 3px;
+    background-image: none;
+    margin: 15px;
+    transition: 0.2s;
+    opacity: 90%;
+    width: 1cm;
+    height: 1cm;
+    object-fit: cover;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 800px){
+	.first{
+		width: 100%;
+	}
+}
