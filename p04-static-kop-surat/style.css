@@ -1,0 +1,31 @@
+.kopsurat {width: 210mm;margin: 0 auto;background-color: #fff;height: 297mm;padding: 20px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);border: 1px solid }
+
+th, .dua {
+	font-weight: normal;
+	font-size: 12pt;
+	font-family: times new roman;
+	text-align: left;
+	padding: 1px;
+
+}
+th, .tiga{
+	text-align: center;
+}
+strong, .surat{
+	letter-spacing: 3px;
+	font-weight: bolder;
+	font-size: 18pt;
+	text-decoration: underline;
+
+}
+@page {
+	size: A4;
+	margin: 0;
+}
+@media print {
+
+	html, body{
+		width: 220mm;
+		height: 287mm;
+	}
+}
